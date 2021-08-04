@@ -1,0 +1,311 @@
+/* 
+     Author: Muhammad Umair;
+     Theme: Electronic Store;
+     Version: 1.0;
+*/
+/* CSS for all */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin:0% auto;
+    padding: 2%;
+}
+.img-responsive{
+    width: 100%;
+
+
+}
+.img-curve{
+    border-radius: 10px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+a{
+    color: orange;
+    text-decoration: none;
+    }
+a:hover{
+    color: orangered;
+}
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color:orange;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: orangered;
+    color: white;
+}
+h2{
+    color:darkcyan;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position:absolute;
+    left:17%;
+    bottom: -30px;
+}
+.text-white{
+    color:black;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+/* CSS for Navbar*/
+.logo{
+    width: 10%;
+    float: left;
+    }
+.products{
+    line-height: 110px;
+}
+.products ul{
+    list-style-type: none;
+}
+.products ul li{
+    display:inline;
+    padding: 1%;
+}
+.products ul li a{
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+.products ul li a:hover{
+    color:orangered;
+}
+/* CSS for Product Search*/
+.Product-Search{
+    background-image: url(../images/bg.jpg);
+    padding: 6% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Product-Search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+/* CSS for Categories*/
+.categories{
+    padding: 4% 0;
+}
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+    padding: 0.5%;
+}
+/* CSS for Products*/
+.product{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.product-box{
+    width: 45%;
+    margin: 1%;
+    float: left;
+    padding: 1%;
+    background-color: white;
+    border-radius: 15px;
+}
+.product-img{
+    width: 20%;
+    float: left;
+}
+.product-desc{
+    width: 70%;
+    float: left;
+    margin-left:8% ;
+}
+.product-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.product-detail{
+    font-size: 1rem;
+    color:grey;
+
+}
+/* CSS for Contact*/
+ .contact
+ {
+     position: relative;
+     min-height: 100vh;
+     padding: 50px 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     background-color: burlywood;
+ }
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2
+{
+    font-size: 36px;
+    font-weight: 2000;
+    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact .content p
+{
+    font-weight: 700;
+    color:brown;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.containar
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.containar .contactinfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.containar .contactinfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.containar .contactinfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:brown;
+    flex-direction: column;
+    font-weight: 700;
+}
+.containar .contactinfo .box .text h3
+{
+    font-weight: 500;
+    color:black;
+}
+.containar .contactinfo .box .text p
+{
+    font-weight: 500;
+    color:black;
+}
+/* CSS for Social*/
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+    color:cornsilk;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+    color: cornsilk;
+}
+.text-cyan{
+    color: darkcyan;
+}
+/* CSS for Mobile Size
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+}
+.product ul{
+    text-align: center;
+}
+.Product-Search input[type="search"]{
+  width: 90%;
+  margin-bottom: 3%;
+  padding: 2%;
+}
+.btn{
+    width: 91%;
+    padding: 2%;
+}
+.Product-Search{
+    padding: 10% 0;
+}
+.categories{
+    padding: 20% 0;
+}
+h2{
+    margin-bottom: 5% auto;
+}
+.box-3{
+    width: 112%;
+    margin: 2% auto;
+}
+.product{
+    padding: 20% 0;
+}
+.product-box{
+    width: 80%;
+    padding: 10%;
+    margin-bottom: 5%;
+}
+.social{
+    padding:5% 0;
+}
+*/
